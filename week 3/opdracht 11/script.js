@@ -2,8 +2,8 @@
 
 let budgetText = document.getElementById("budgetText");
 
-let budget="100"
-let product="60"
+let budget= 100;
+let product= 60;
 
 if (budget >=60) {
 
