@@ -3,7 +3,8 @@ let count = 0;
 function teller() {
   count++;
   console.log(count);
-  document.getElementById("text").textContent = count;
+  document.getElementById("countText").textContent = count;
+  
   
   if (count >= 5) {
     document.getElementById("text").innerHTML = "Pauze? Water is ook lekker";
