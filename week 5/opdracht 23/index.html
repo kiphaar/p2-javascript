@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Scherm 1: Vraag stellen -->
+    <div id="questionScreen">
+        <h1>🔮 Magische 8 Bal</h1>
+        <p>Stel een ja/nee vraag:</p>
+        <input type="text" id="question" placeholder="Bijvoorbeeld: Zal ik geluk hebben?">
+        <p id="warning">Voer alstublieft een vraag in!</p>
+        <button id="askBtn">Antwoord geven</button>
+    </div>
+
+    <!-- Scherm 2: Antwoord tonen -->
+    <div id="answerScreen" class="hidden">
+        <h1>🔮 Je Antwoord</h1>
+        <p><strong>Vraag:</strong> <span id="displayQuestion"></span></p>
+        <p style="text-align: center; font-size: 30px; font-weight: bold;" id="answer"></p>
+        <button id="resetBtn">Nieuwe Vraag</button>
+    </div>
+
+</body>
+</html>
